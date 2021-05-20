@@ -1,0 +1,272 @@
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media (min-width: 1920px) {
+  html{
+    font-size: 62.5%;
+  }
+}
+
+/* Large devices (laptops/desktops, 1230px and Down) */
+@media (max-width: 1230px) {
+  html{
+    font-size: 57%;
+  }
+  .main-header .container-fluid, .slider-section .container-fluid{
+    max-width: 100%;
+  }
+  ul.my-primary-menu li a {
+    padding: 1rem 1rem;
+    font-size: 1.6rem;
+}
+.header-search {
+  width: 2.5rem;
+  margin: 0 1rem;
+} 
+.header-call {
+  width: 16rem;
+}
+.header-call-icon {
+  font-size: 3rem;
+}
+.header-call-info {
+  font-size: 1.6rem;
+}
+.header-call-info a {
+  font-size: 1.4rem;
+}
+.header-button .btn-primary {
+  padding: 1rem 3rem;
+  font-size: 1.5rem;
+}
+/*Slider Section*/
+/*
+.slider-content-wrap{
+  height: 40vh;
+}
+.slider-section {
+  background-size: cover;
+}
+*/
+.slider-content h6{
+  font-size: 2rem;
+}
+.slider-content h1 {
+  font-size: 5rem;
+  margin: 1rem 0 1.5rem 0;
+}
+.slider-content p{
+  font-size: 2rem;
+}
+.slider-social ul li a{
+  padding: 0 .8rem;
+}
+/*Owl carousel Responsive css*/
+.owl-dots{
+  left:100%;
+}
+.owl-theme .owl-dots .owl-dot{
+  zoom: 1;
+}
+
+.finix-text h2 {
+  font-size: 3.2rem;
+}
+
+.content-item h1 {
+  font-size: 3.5rem;
+}
+
+.services-tab-item a strong {
+  font-size: 1.7rem;
+}
+
+.widget-social ul li span {
+  font-size: 1.6rem;
+}
+.widget-social ul li a{
+  font-size: 2rem;
+  padding: .8rem;
+}
+
+}
+/* Medium devices (landscape tablets, 992px and Down) */
+@media (max-width: 992px) {
+  html{
+    font-size: 55%;
+  }
+  
+  .my-primary-menu li{
+    border: 1px solid #677294;
+  }
+
+
+
+
+  .rsbtn{
+    position: relative;
+  }
+  .main-header .resbtn {
+    position: absolute;
+    top: 1.2rem;
+    right: 7rem;
+}
+  .main-header .resbtn .header-button{
+    visibility: visible;
+    display: unset;
+    align-items: flex-end;
+  }
+  .header-button .btn-primary {
+    padding: .6rem 3rem;
+}
+body .btn-primary{
+  padding: .6rem 3rem;
+}
+  .navbar-toggler-icon {
+    font-size: 2rem;
+}
+
+.navbar-toggler-icon i{
+  font-size: 3rem;
+}
+.navbar-light .navbar-toggler-icon {
+  background-image: none;
+}
+
+.header-button{
+  display: none;
+}
+
+/*slider section*/
+.slider-content{
+  max-width: 40rem;
+}
+.slider-content h6 {
+  font-size: 1.5rem;
+}
+.slider-content h1 {
+  font-size: 4rem;
+}
+.slider-content p {
+  font-size: 1.6rem;
+}
+
+.finix-text{
+  margin-bottom: 4rem;
+}
+.services-tab-item a strong {
+  font-size: 1.5rem;
+}
+
+.calculate-rate{
+  margin-top: 6rem;
+}
+.cell-number{
+  padding: 1rem;
+}
+.content-item h1 {
+  font-size: 2.5rem;
+}
+.cell-icon {
+  font-size: 3.5rem;
+  height: 5.5rem;
+  width: 5.5rem;
+  line-height: 5.5rem;
+  margin-left: 2.6rem;
+  margin-top: 1.8rem;
+}
+.content-item::before{
+  width: 0;
+  height: 0;
+}
+
+.owl-dots{
+  left:100%;
+}
+.owl-theme .owl-dots .owl-dot span {
+  width: .7rem;
+  height: .7rem;
+  margin: .2rem .1rem;
+}
+.about-text{
+  margin-top: 3rem;
+}
+
+
+} 
+/* Small devices (portrait tablets and large phones, 768px and Down) */
+@media (max-width: 768px) {
+  .slider-content-wrap{
+    height: 65vh;
+  }
+  .slider-section{
+    background-position-y: 6rem;
+    background-size: 80rem;
+  }
+}
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 575px) {
+  html{
+    font-size: 50%;
+  }
+  .main-header .resbtn {
+    top: .5rem;
+}
+  .navbar-brand img{
+    max-width: 70%;
+  }
+  .slider-content-wrap{
+    height: 55vh;
+  }
+  .slider-content {
+    max-width: 40rem;
+}
+  .slider-section{
+    background-position-y: 8rem;
+    background-size: 62rem;
+  }
+  .slider-content {
+    max-width: 30rem;
+}
+.slider-content h1 {
+  font-size: 2.5rem;
+}
+.slider-content p {
+  font-size: 1.4rem;
+}
+.slider-social ul li span {
+  font-size: 1.6rem;
+}
+.slider-social ul li a {
+  font-size: 1.6rem;
+}
+.member-image {
+  width: auto;
+  max-width: 100%;
+}
+.member-image img{
+  display: inline;
+  width: 100%;
+  align-items: center;
+}
+
+.step-timeline ul::before {
+  left: 22px;
+}
+.step-timeline ul li::before {
+  left: -5.5rem;
+  top: .2rem;
+}
+.content-item h1 {
+  font-size: 2rem;
+}
+.cell-number a {
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+}
+
+
+
+
+
+
+
